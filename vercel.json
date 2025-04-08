@@ -14,7 +14,7 @@
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "newsapi-backend/api/$1.js" },
+    { "src": "/(.*)", "dest": "newsapi-frontend/dist/index.html" },
     { "src": "/(.*)", "dest": "newsapi-frontend/dist/$1" }
   ]
 }
