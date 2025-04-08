@@ -1,0 +1,35 @@
+# Global
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Frontend (React)
+newsapi-frontend/node_modules/
+newsapi-frontend/build/
+newsapi-frontend/.env
+newsapi-frontend/.DS_Store
+
+# Backend (Node/Express)
+newsapi-backend/node_modules/
+newsapi-backend/.env
+newsapi-backend/.DS_Store
+
+# OS-specific
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
